@@ -15,12 +15,12 @@ amount_entry.pack(pady=5)
 
 from_currency_label = tk.Label(root, text="From Currency:")
 from_currency_label.pack(pady=5)
-from_currency_label_dropdown = ttk.Combobox(root, values=["USD", "EUR", "GBP", "JPY", "AUD","INR"])
+from_currency_label_dropdown = ttk.Combobox(root, values=["USD","INR", "EUR", "GBP", "JPY", "AUD"])
 from_currency_label_dropdown.pack(pady=5)
 
 to_currency_label = tk.Label(root, text="To Currency:")
 to_currency_label.pack(pady=5)
-to_currency_label_dropdown = ttk.Combobox(root, values=["USD", "EUR", "GBP", "JPY", "AUD", "INR"])
+to_currency_label_dropdown = ttk.Combobox(root, values=["USD", "INR", "EUR", "GBP", "JPY", "AUD"])
 to_currency_label_dropdown.pack(pady=5)
 
 def convert_currency():
