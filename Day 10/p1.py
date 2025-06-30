@@ -1,6 +1,6 @@
 from mistralai import Mistral
 
-model = Mistral( api_key="vvZUwqy8dursLU78qoRXYTV0Xvln8ly0")
+model = Mistral( api_key="<key>")
 response = model.chat.complete(model="mistral-small-2506", messages=[
     {
         "role": "user",
